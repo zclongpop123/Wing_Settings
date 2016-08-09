@@ -1,43 +1,57 @@
 [user-preferences]
-edit.background-color = (30,
-                         41,
-                         46)
+cache.changed-reload-policy = 'edit-reload'
+cache.unchanged-reload-policy = 'edit-reload'
+debug.passive-listen = True
+edit.auto-indent = 'blank-only'
+edit.background-color = (38,
+                         39,
+                         53)
+edit.fold-mark-foreground-color = (221,
+                                   255,
+                                   34)
 edit.occurrence-color = (255,
                          163,
                          163)
 edit.other-split-type = 'default'
+edit.qt-bookmark-color = (16,
+                          192,
+                          16)
 edit.qt-display-font = u'Monaco,10'
 edit.show-indent-guides = True
 edit.show-line-numbers = True
-edit.syntax-formatting = {'PYTHON': {u'character': {'fore': '#86BD3B'},
+edit.syntax-formatting = {'PYTHON': {u'character': {'fore': '#89BD59'},
                                      u'classname': {'fore': '#A6E32D'},
                                      u'commentblock': {'fore': '#948F7A'},
                                      u'commentline': {'fore': '#948F7A'},
                                      u'decorator': {'fore': '#FFCF7F'},
+                                     u'default': {'fore': '#E4E4DE'},
                                      u'defname': {'bold': False,
         'fore': '#58B1FF'},
-                                     u'identifier': {'fore': '#B4B2B2'},
+                                     u'identifier': {'fore': '#AAA8A8'},
                                      u'number': {'fore': '#AE81FF'},
                                      u'operator': {'fore': '#A6969F'},
-                                     u'string': {'fore': '#86BD3B'},
+                                     u'string': {'fore': '#89BD59'},
                                      u'triple': {'fore': '#C6392E'},
                                      u'tripledouble': {'fore': '#FF8080'},
-                                     'word': {'fore': '#FF7B4A'},
+                                     'word': {'fore': '#FF784A'},
                                      'word2': {'fore': '#FFCF7F'}}}
-gui.keymap-override = {'Ctrl-Return': 'python_to_maya'}
-gui.last-feedback-shown = 1435314688.281
+gui.last-feedback-shown = 1458294877.251
 gui.prefered-symbol-order = 'file-order'
 gui.qt-color-palette = u'monokai'
 gui.qt-display-theme = ('selected-style',
                         None,
                         u'Cleanlooks',
                         None)
-gui.qt-text-selection-color = (149,
-                               149,
-                               149)
+gui.qt-text-selection-color = (104,
+                               104,
+                               104)
+gui.show-feedback-dialog = False
 gui.startup-show-wingtips = 0
 gui.toolbar-icon-size = 'small'
-main.display-language = 'en'
-pysource.interfaces-path = (u'E:\\foley\\myRepo\\rigBuilder\\1.1.1\\source',
-                            u'C:\\Program Files\\Autodesk\\Maya2015\\devkit\\other\\pymel\\extras\\completion\\py',
+main.max-error-log-size = 50000
+pysource.interfaces-path = (u'c:\\Python35\\Lib\\site-packages',
+                            u'r:\\filmServe\\RnD\\maya\\mayaScripts\\scripts_utilities\\scripts',
+                            u'C:\\Program Files\\Autodesk\\Maya2014\\devkit\\other\\pymel\\extras\\completion\\py',
                             'pi-files')
+versioncontrol.git.executable = u'c:\\Program Files\\Git\\bin\\git.exe'
+versioncontrol.watch-disk = False
