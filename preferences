@@ -2,7 +2,6 @@
 cache.changed-reload-policy = 'edit-reload'
 cache.unchanged-reload-policy = 'edit-reload'
 debug.passive-listen = True
-edit.auto-indent = 'blank-only'
 edit.background-color = (38,
                          39,
                          53)
@@ -35,6 +34,7 @@ edit.syntax-formatting = {'PYTHON': {u'character': {'fore': '#89BD59'},
                                      u'tripledouble': {'fore': '#FF8080'},
                                      'word': {'fore': '#FF784A'},
                                      'word2': {'fore': '#FFCF7F'}}}
+gui.keymap-override = {'Alt-Quoteleft': 'init_python_document()'}
 gui.last-feedback-shown = 1458294877.251
 gui.prefered-symbol-order = 'file-order'
 gui.qt-color-palette = u'monokai'
@@ -49,8 +49,7 @@ gui.show-feedback-dialog = False
 gui.startup-show-wingtips = 0
 gui.toolbar-icon-size = 'small'
 main.max-error-log-size = 50000
-pysource.interfaces-path = (u'c:\\Python35\\Lib\\site-packages',
-                            u'r:\\filmServe\\RnD\\maya\\mayaScripts\\scripts_utilities\\scripts',
+pysource.interfaces-path = (u'r:\\filmServe\\RnD\\maya\\mayaScripts\\scripts_utilities\\scripts',
                             u'C:\\Program Files\\Autodesk\\Maya2014\\devkit\\other\\pymel\\extras\\completion\\py',
                             'pi-files')
 versioncontrol.git.executable = u'c:\\Program Files\\Git\\bin\\git.exe'
