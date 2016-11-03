@@ -6,7 +6,7 @@
 import time, wingapi
 #--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
 WEEK  = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
-MONTH = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Nov', 'Dec')
+MONTH = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 
 
 def create_copyright_data():
@@ -16,7 +16,7 @@ def create_copyright_data():
     data = ('#========================================',
             '# author: changlong.zang',
             '#   mail: zclongpop@163.com',
-            '#   date: {0}, {1:0>2} {2} {3}, {4:0>2}:{5:0>2}:{6:0>2}'.format(WEEK[tm.tm_wday], tm.tm_mday, MONTH[tm.tm_mon], tm.tm_year, tm.tm_hour, tm.tm_min, tm.tm_sec),
+            '#   date: {1}, {0.tm_mday:0>2} {2} {0.tm_year}, {0.tm_hour:0>2}:{0.tm_min:0>2}:{0.tm_sec:0>2}'.format(tm, WEEK[tm.tm_wday], MONTH[tm.tm_mon]),
             '#========================================',
             '#--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+')
 
