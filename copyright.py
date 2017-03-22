@@ -1,26 +1,26 @@
 #========================================
-# author: changlong.zang
-#   mail: zclongpop@163.com
-#   date: Tue, 11 Oct 2016, 16:10:42
+#    author: Changlong.Zang
+#      mail: zclongpop123@163.com
+#      time: Fri Mar 17 14:38:35 2017
 #========================================
-import time, wingapi
+import time, string, wingapi
 #--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
-WEEK  = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
-MONTH = ('', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
-
-
 def create_copyright_data():
     '''
+    punctuation = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
+                     2               18
     '''
-    tm = time.localtime()
-    data = ('#========================================',
-            '# author: changlong.zang',
-            '#   mail: zclongpop@163.com',
-            '#   date: {1}, {0.tm_mday:0>2} {2} {0.tm_year}, {0.tm_hour:0>2}:{0.tm_min:0>2}:{0.tm_sec:0>2}'.format(tm, WEEK[tm.tm_wday], MONTH[tm.tm_mon]),
-            '#========================================',
-            '#--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+')
+    commentBase = string.punctuation[2]
+    data = (commentBase + string.punctuation[18] * 40,
+            '{0}{1}: {2}'.format(commentBase, 'author'.rjust(10), 'Changlong.Zang'),
+            '{0}{1}: {2}'.format(commentBase,   'mail'.rjust(10), 'zclongpop123@163.com'),
+            '{0}{1}: {2}'.format(commentBase,   'time'.rjust(10),  time.ctime(time.time())),
+            commentBase + string.punctuation[18] * 40,
+            commentBase + '--+' * 40 + '\n')
 
     return '\n'.join(data)
+
+
 
 
 
@@ -32,4 +32,4 @@ def init_python_document():
         return
 
     doc = editor.GetDocument()
-    doc.SetText(create_copyright_data())
+    doc.InsertChars(0, create_copyright_data())
