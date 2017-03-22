@@ -2,6 +2,7 @@
 cache.changed-reload-policy = 'edit-reload'
 cache.unchanged-reload-policy = 'edit-reload'
 debug.passive-listen = True
+diff.scroll-lock = False
 edit.background-color = (38,
                          39,
                          53)
@@ -11,7 +12,6 @@ edit.fold-mark-foreground-color = (221,
 edit.occurrence-color = (255,
                          163,
                          163)
-edit.other-split-type = 'default'
 edit.qt-bookmark-color = (16,
                           192,
                           16)
@@ -38,10 +38,6 @@ gui.keymap-override = {'Alt-Quoteleft': 'init_python_document()'}
 gui.last-feedback-shown = 1458294877.251
 gui.prefered-symbol-order = 'file-order'
 gui.qt-color-palette = u'monokai'
-gui.qt-display-theme = ('selected-style',
-                        None,
-                        u'Cleanlooks',
-                        None)
 gui.qt-text-selection-color = (104,
                                104,
                                104)
@@ -49,8 +45,8 @@ gui.show-feedback-dialog = False
 gui.startup-show-wingtips = 0
 gui.toolbar-icon-size = 'small'
 main.max-error-log-size = 50000
-pysource.interfaces-path = (u'r:\\filmServe\\RnD\\maya\\mayaScripts\\scripts_utilities\\scripts',
-                            u'C:\\Program Files\\Autodesk\\Maya2014\\devkit\\other\\pymel\\extras\\completion\\py',
+main.prefs-version = 6
+pysource.interfaces-path = (u'C:\\Program Files\\Autodesk\\Maya2017\\devkit\\other\\pymel\\extras\\completion\\py',
                             'pi-files')
 versioncontrol.git.executable = u'c:\\Program Files\\Git\\bin\\git.exe'
 versioncontrol.watch-disk = False
