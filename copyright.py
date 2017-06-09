@@ -31,5 +31,9 @@ def init_python_document():
     if editor is None:
         return
 
+    #- add copyright
     doc = editor.GetDocument()
     doc.InsertChars(0, create_copyright_data())
+
+    #- add main test code
+    doc.InsertChars(doc.GetLength(), '\nif __name__ == \'__main__\':\n    main()\n')
