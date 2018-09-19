@@ -16,7 +16,11 @@ def create_copyright_data():
             '{0}{1}: {2}'.format(commentBase,   'mail'.rjust(10), 'zclongpop123@163.com'),
             '{0}{1}: {2}'.format(commentBase,   'time'.rjust(10),  time.ctime(time.time())),
             commentBase + string.punctuation[18] * 40,
-            commentBase + '--+' * 40 + '\n')
+            commentBase + '--+' * 40,
+			'def main():',
+			"    '''",
+			"    '''",
+			'    pass')
 
     return '\n'.join(data)
 
@@ -36,4 +40,4 @@ def init_python_document():
     doc.InsertChars(0, create_copyright_data())
 
     #- add main test code
-    doc.InsertChars(doc.GetLength(), '\nif __name__ == \'__main__\':\n    main()\n')
+    doc.InsertChars(doc.GetLength(), "\n\n\nif __name__ == \'__main__\':\n    main()\n")

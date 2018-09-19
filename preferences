@@ -17,7 +17,7 @@ edit.qt-bookmark-color = (16,
                           16)
 edit.qt-display-font = u'Monaco,10'
 edit.show-indent-guides = True
-edit.show-line-numbers = True
+edit.show-line-numbers = 1
 edit.syntax-formatting = {'PYTHON': {u'character': {'fore': '#89BD59'},
                                      u'classname': {'fore': '#A6E32D'},
                                      u'commentblock': {'fore': '#948F7A'},
