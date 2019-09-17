@@ -17,7 +17,7 @@ edit.qt-bookmark-color = (16,
                           16)
 edit.qt-display-font = u'Monaco,10'
 edit.show-indent-guides = True
-edit.show-line-numbers = 1
+edit.show-line-numbers = True
 edit.syntax-formatting = {'PYTHON': {u'character': {'fore': '#89BD59'},
                                      u'classname': {'fore': '#A6E32D'},
                                      u'commentblock': {'fore': '#948F7A'},
@@ -34,6 +34,9 @@ edit.syntax-formatting = {'PYTHON': {u'character': {'fore': '#89BD59'},
                                      u'tripledouble': {'fore': '#FF8080'},
                                      'word': {'fore': '#FF784A'},
                                      'word2': {'fore': '#FFCF7F'}}}
+edit.tab-size = 4
+gui.block-comment-style = 'indented-pep8'
+gui.feedback-email = 'zclongpop123@163.com'
 gui.keymap-override = {'Alt-Quoteleft': 'init_python_document()'}
 gui.last-feedback-shown = 1458294877.251
 gui.prefered-symbol-order = 'file-order'
@@ -44,8 +47,23 @@ gui.qt-text-selection-color = (104,
 gui.show-feedback-dialog = False
 gui.startup-show-wingtips = 0
 gui.toolbar-icon-size = 'small'
+main.last-dark-mode = (u'monokai',
+                       False)
+main.last-prefs-page = (0,
+                        -1)
+main.last-properties-pages = {'CDirectoryProperties': 0,
+                              'CFilePropertiesDialog': 0,
+                              'CProjectPropertiesDialog': 0,
+                              'CStartDebugProperties': 0}
 main.max-error-log-size = 50000
-main.prefs-version = 6
+main.prefs-version = 7
+main.update-history = [((7,
+                         1,
+                         1,
+                         0),
+                        'https://wingware.com/pub/updates/7.1.1.0/win32/df7c'\
+                        '061338d79c1a02b80d03f499169c4eb7e0a6.tar.bz2',
+                        '2019-09-09 10:26:44')]
 pysource.interfaces-path = (u'C:\\Program Files\\Autodesk\\Maya2017\\devkit\\other\\pymel\\extras\\completion\\py',
                             'pi-files')
 versioncontrol.git.executable = u'c:\\Program Files\\Git\\bin\\git.exe'
