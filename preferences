@@ -3,9 +3,9 @@ cache.changed-reload-policy = 'edit-reload'
 cache.unchanged-reload-policy = 'edit-reload'
 debug.passive-listen = True
 diff.scroll-lock = False
-edit.background-color = (38,
-                         39,
-                         53)
+edit.background-color = (41,
+                         44,
+                         63)
 edit.fold-mark-foreground-color = (221,
                                    255,
                                    34)
@@ -15,7 +15,7 @@ edit.occurrence-color = (255,
 edit.qt-bookmark-color = (16,
                           192,
                           16)
-edit.qt-display-font = u'Monaco,10'
+edit.qt-display-font = u'Monaco,12'
 edit.show-indent-guides = True
 edit.show-line-numbers = True
 edit.syntax-formatting = {'PYTHON': {u'character': {'fore': '#89BD59'},
@@ -49,8 +49,8 @@ gui.startup-show-wingtips = 0
 gui.toolbar-icon-size = 'small'
 main.last-dark-mode = (u'monokai',
                        False)
-main.last-prefs-page = (0,
-                        -1)
+main.last-prefs-page = (3,
+                        6)
 main.last-properties-pages = {'CDirectoryProperties': 0,
                               'CFilePropertiesDialog': 0,
                               'CProjectPropertiesDialog': 0,
@@ -64,7 +64,7 @@ main.update-history = [((7,
                         'https://wingware.com/pub/updates/7.1.1.0/win32/df7c'\
                         '061338d79c1a02b80d03f499169c4eb7e0a6.tar.bz2',
                         '2019-09-09 10:26:44')]
-pysource.interfaces-path = (u'C:\\Program Files\\Autodesk\\Maya2017\\devkit\\other\\pymel\\extras\\completion\\py',
+pysource.interfaces-path = (u'C:\\Program Files\\Autodesk\\Maya2018\\devkit\\other\\pymel\\extras\\completion\\py',
                             'pi-files')
 versioncontrol.git.executable = u'c:\\Program Files\\Git\\bin\\git.exe'
 versioncontrol.watch-disk = False
