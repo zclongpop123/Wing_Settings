@@ -1,70 +1,26 @@
 [user-preferences]
-cache.changed-reload-policy = 'edit-reload'
-cache.unchanged-reload-policy = 'edit-reload'
-debug.passive-listen = True
-diff.scroll-lock = False
 edit.background-color = (41,
                          44,
                          63)
-edit.fold-mark-foreground-color = (221,
-                                   255,
-                                   34)
-edit.occurrence-color = (255,
-                         163,
-                         163)
-edit.qt-bookmark-color = (16,
-                          192,
-                          16)
-edit.qt-display-font = u'Monaco,12'
-edit.show-indent-guides = True
-edit.show-line-numbers = True
-edit.syntax-formatting = {'PYTHON': {u'character': {'fore': '#89BD59'},
-                                     u'classname': {'fore': '#A6E32D'},
-                                     u'commentblock': {'fore': '#948F7A'},
-                                     u'commentline': {'fore': '#948F7A'},
-                                     u'decorator': {'fore': '#FFCF7F'},
-                                     u'default': {'fore': '#E4E4DE'},
-                                     u'defname': {'bold': False,
-        'fore': '#58B1FF'},
-                                     u'identifier': {'fore': '#AAA8A8'},
-                                     u'number': {'fore': '#AE81FF'},
-                                     u'operator': {'fore': '#A6969F'},
-                                     u'string': {'fore': '#89BD59'},
-                                     u'triple': {'fore': '#C6392E'},
-                                     u'tripledouble': {'fore': '#FF8080'},
+edit.qt-display-font = 'Monaco,10'
+edit.syntax-formatting = {'PYTHON': {'classname': {'fore': '#FF784A'},
+                                     'default': {'fore': '#B2B1C5'},
+                                     'number': {'fore': '#AE81FF'},
                                      'word': {'fore': '#FF784A'},
                                      'word2': {'fore': '#FFCF7F'}}}
 edit.tab-size = 4
-gui.block-comment-style = 'indented-pep8'
-gui.feedback-email = 'zclongpop123@163.com'
-gui.keymap-override = {'Alt-Quoteleft': 'init_python_document()'}
-gui.last-feedback-shown = 1458294877.251
-gui.prefered-symbol-order = 'file-order'
-gui.qt-color-palette = u'monokai'
-gui.qt-text-selection-color = (104,
-                               104,
-                               104)
-gui.show-feedback-dialog = False
-gui.startup-show-wingtips = 0
-gui.toolbar-icon-size = 'small'
-main.last-dark-mode = (u'monokai',
+gui.editor-theme = 'one-dark'
+gui.qt-color-palette = 'monokai'
+gui.qt-text-selection-color = (51,
+                               64,
+                               93)
+main.cluster-image-changed-policy = 'auto-restart'
+main.container-image-changed-policy = 'auto-restart'
+main.last-dark-mode = ('monokai',
                        False)
+main.last-dark-theme = ('cherry-blossom',
+                        'one-dark')
+main.last-light-theme = (None,
+                         'one-dark')
 main.last-prefs-page = (3,
                         6)
-main.last-properties-pages = {'CDirectoryProperties': 0,
-                              'CFilePropertiesDialog': 0,
-                              'CProjectPropertiesDialog': 0,
-                              'CStartDebugProperties': 0}
-main.max-error-log-size = 50000
-main.prefs-version = 7
-main.update-history = [((7,
-                         1,
-                         1,
-                         0),
-                        'https://wingware.com/pub/updates/7.1.1.0/win32/df7c'\
-                        '061338d79c1a02b80d03f499169c4eb7e0a6.tar.bz2',
-                        '2019-09-09 10:26:44')]
-pysource.interfaces-path = (u'C:\\Program Files\\Autodesk\\Maya2018\\devkit\\other\\pymel\\extras\\completion\\py',
-                            'pi-files')
-versioncontrol.git.executable = u'c:\\Program Files\\Git\\bin\\git.exe'
-versioncontrol.watch-disk = False
