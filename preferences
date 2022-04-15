@@ -4,6 +4,8 @@ edit.background-color = (41,
                          63)
 edit.qt-display-font = 'Monaco,10'
 edit.syntax-formatting = {'PYTHON': {'classname': {'fore': '#FF784A'},
+                                     'commentblock': {'fore': '#948F7A'},
+                                     'commentline': {'fore': '#948F7A'},
                                      'default': {'fore': '#B2B1C5'},
                                      'number': {'fore': '#AE81FF'},
                                      'word': {'fore': '#FF784A'},
@@ -23,5 +25,5 @@ main.last-dark-theme = ('cherry-blossom',
                         'one-dark')
 main.last-light-theme = (None,
                          'one-dark')
-main.last-prefs-page = (0,
-                        3)
+main.last-prefs-page = (3,
+                        6)
