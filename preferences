@@ -10,6 +10,7 @@ edit.syntax-formatting = {'PYTHON': {'classname': {'fore': '#FF784A'},
                                      'word2': {'fore': '#FFCF7F'}}}
 edit.tab-size = 4
 gui.editor-theme = 'one-dark'
+gui.keymap-override = {'Alt-Quoteleft': 'init_python_document'}
 gui.qt-color-palette = 'monokai'
 gui.qt-text-selection-color = (51,
                                64,
@@ -22,5 +23,5 @@ main.last-dark-theme = ('cherry-blossom',
                         'one-dark')
 main.last-light-theme = (None,
                          'one-dark')
-main.last-prefs-page = (3,
-                        6)
+main.last-prefs-page = (0,
+                        3)
