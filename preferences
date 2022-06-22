@@ -3,7 +3,9 @@ edit.background-color = (41,
                          44,
                          63)
 edit.qt-display-font = 'Monaco,10'
-edit.syntax-formatting = {'PYTHON': {'classname': {'fore': '#FF784A'},
+edit.show-indent-guides = True
+edit.show-line-numbers = 1
+edit.syntax-formatting = {'PYTHON': {'classname': {'fore': '#A6E32D'},
                                      'commentblock': {'fore': '#948F7A'},
                                      'commentline': {'fore': '#948F7A'},
                                      'default': {'fore': '#B2B1C5'},
@@ -12,11 +14,12 @@ edit.syntax-formatting = {'PYTHON': {'classname': {'fore': '#FF784A'},
                                      'word2': {'fore': '#FFCF7F'}}}
 edit.tab-size = 4
 gui.editor-theme = 'one-dark'
-gui.keymap-override = {'Alt-Quoteleft': 'init_python_document'}
+gui.keymap-override = {'Alt-1': 'init_python_document'}
 gui.qt-color-palette = 'monokai'
 gui.qt-text-selection-color = (51,
                                64,
                                93)
+gui.startup-show-wingtips = 0
 main.cluster-image-changed-policy = 'auto-restart'
 main.container-image-changed-policy = 'auto-restart'
 main.last-dark-mode = ('monokai',
@@ -25,5 +28,29 @@ main.last-dark-theme = ('cherry-blossom',
                         'one-dark')
 main.last-light-theme = (None,
                          'one-dark')
-main.last-prefs-page = (3,
-                        6)
+main.last-prefs-page = (5,
+                        0)
+main.last-properties-pages = {'CDirectoryProperties': 0,
+                              'CProjectPropertiesDialog': 0,
+                              'CStartDebugProperties': 0}
+main.update-history = [((8,
+                         3,
+                         0,
+                         3),
+                        'https://wingware.com/pub/updates/8.3.0.3/win32/e81e6b8c56e83d1d9f7bdece4ebcd122638963fd.tar.bz2',
+                        '2022-04-18 09:44:58'),
+                       ((8,
+                         3,
+                         0,
+                         4),
+                        'https://wingware.com/pub/updates/8.3.0.4/win32/11bb0af7e4d06349ac3e478b30c15d82cb6961ec.tar.bz2',
+                        '2022-04-29 09:20:09'),
+                       ((8,
+                         3,
+                         1,
+                         1),
+                        'https://wingware.com/pub/updates/8.3.1.1/win32/7f0c80275d7c858eff4af85622116cdc1ecc18d0.tar.bz2',
+                        '2022-06-08 09:23:13')]
+pysource.interfaces-path = ('C:\\Program Files\\Autodesk\\Maya2020\\devkit\\devkit\\other\\pymel\\extras\\completion\\py',
+                            'pi-files')
+versioncontrol.watch-disk = False
